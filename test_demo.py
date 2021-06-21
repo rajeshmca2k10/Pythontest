@@ -1,14 +1,5 @@
 import unittest
-# from SEG.DB.DBConn import DBConn as db_util
-# from bin import compliance_data_loader
-# import bin.date_util as util
-# import logging
-import sys
-import mock
-import os
-sys.path.append(os.path.dirname(__file__) + "/..")
-from expert_networks.process_glg_data import __glg_login
-# from selenium import webdriver
+
 
 class TestDetermineRestrictedHistory(unittest.TestCase):
 
